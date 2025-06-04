@@ -125,6 +125,8 @@ call :ApplyReg "Auto End Tasks" "HKCU\Control Panel\Desktop" "AutoEndTasks" "REG
 call :ApplyReg "Mouse Hover Time" "HKCU\Control Panel\Mouse" "MouseHoverTime" "REG_SZ" "400"
 call :ApplyReg "IRP Stack Size" "HKLM\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters" "IRPStackSize" "REG_DWORD" "30"
 call :ApplyReg "Clear PageFile at Shutdown" "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management" "ClearPageFileAtShutdown" "REG_DWORD" "0"
+call :ApplyReg "Disable Transparency Effects" "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize" "EnableTransparency" "REG_DWORD" "0"
+call :ApplyReg "Disable Prefetch" "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters" "EnablePrefetcher" "REG_DWORD" "0"
 
 REM ========================================
 REM  PRIVACY & BLOATWARE OPTIMIZATIONS

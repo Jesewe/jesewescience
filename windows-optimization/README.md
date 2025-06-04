@@ -66,7 +66,11 @@
 
   Это сократит фоновые процессы и передачу данных.
 
-![Конфиденциальность и защита](../assets/confidentiality-settings.png)
+  <img src="../assets/confidentiality-settings.png" alt="Конфиденциальность и защита" width="600">
+  <img src="../assets/confidentiality-settings-two.png" alt="Общие" width="600">
+  <img src="../assets/confidentiality-settings-three.png" alt="Голосовые функции" width="600">
+  <img src="../assets/confidentiality-settings-four.png" alt="Персонализация рукописного ввода и ввода с клавиатуры" width="600">
+  <img src="../assets/confidentiality-settings-five.png" alt="Диагностика и отзывы" width="600">
 
 ### 4. Настройки обновлений Windows и автозагрузка
 
